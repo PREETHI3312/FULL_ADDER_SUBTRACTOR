@@ -1,4 +1,5 @@
-# FULL_ADDER_SUBTRACTOR
+# DATE:
+# EXP-4:FULL_ADDER_SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
@@ -43,6 +44,9 @@ Borrow out = A'Bin + A'B + BBin
 Write the detailed procedure here
 
 **Program:**
+```
+DEVELOPED BY: A K PREETHI
+REGISTER NUMBER:212223230156
 
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. 
 
@@ -65,7 +69,7 @@ assign diff=a^b^c;
 assign BO=(~a&b)|(~a&c)|(b&c);
 
 endmodule
-
+```
 **RTL Schematic**
 
 ![Screenshot 2024-09-23 111607](https://github.com/user-attachments/assets/facf2091-1425-43f3-bf6b-dcfcb920f26d)
